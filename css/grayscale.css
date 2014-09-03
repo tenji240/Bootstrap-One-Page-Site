@@ -129,7 +129,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/bk-1920-blur.jpg) no-repeat bottom center scroll;
+    background: url(../img/wallstreet.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -249,8 +249,10 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/43H-1920-banner-blur.jpg) no-repeat center center scroll;
-    background-color: #000;
+    background: -webkit-linear-gradient(#00396F, #E5E9BF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#00396F, #E5E9BF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#00396F, #E5E9BF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#00396F, #E5E9BF); /* Standard syntax */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -267,6 +269,7 @@ a:focus {
 @media(min-width:767px) {
     .content-section {
         padding-top: 250px;
+        padding-bottom: 150px;
     }
   
     .menu-section {
@@ -274,7 +277,8 @@ a:focus {
     }
 
     .download-section {
-        padding: 100px 0;
+        padding-top: 100px;
+        padding-bottom: 250px;
     }
 
     #map {
